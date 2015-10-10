@@ -237,5 +237,10 @@ ol ol {
     text-decoration: underline;
 }
 
-.en, .zh { display:incline; } /* hide all elements with a language class */
-.en:lang(en), .zh:lang(zh) { display:block; } /* show those elements that match their language class */
+.en { 
+    display:incline;
+}
+
+.zh {
+    display:none;
+}
